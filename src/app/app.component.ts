@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { HelloComponent } from './hello.component';
+import { HelloComponent } from './addItem.component';
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
