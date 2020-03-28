@@ -2,13 +2,12 @@ import { Component, Input } from '@angular/core';
 
 
 @Component({
-  selector: 'delete',
+  selector: 'item',
   template: `
-  <button type="button" class="btn btn-primary">
-  Delete
-</button>`,
+  <input type="checkbox">
+`,
   styles: [`h1 { font-family: Lato; }`]
 })
-export class DeleteItemComponent  {
+export class ItemComponent  {
   
 }
