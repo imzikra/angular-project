@@ -24,6 +24,7 @@ modalRef: BsModalRef;
  
   openModal(template: TemplateRef<any>) {
     this.modalRef = this.modalService.show(template);
+    
   }
   
 }
